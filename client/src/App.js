@@ -1,6 +1,7 @@
 import ochslogo from './assets/images/ochslogo.png'
 import styled from 'styled-components'
 import Menu from './components/Menu'
+import './App.css'
 
 const Layout = styled.div`
     display: grid;

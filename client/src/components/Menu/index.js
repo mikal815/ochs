@@ -34,7 +34,7 @@ export default class TheMenu extends React.Component {
                     <Link onClick={() => this.closeMenu()} to="/">
                         Home
                 </Link>
-
+                    {/* 
                     <Link onClick={() => this.closeMenu()} smooth to="/details/#portfolio">
                         Link
                 </Link>
@@ -49,7 +49,7 @@ export default class TheMenu extends React.Component {
 
                     <Link onClick={() => this.closeMenu()} smooth to="/details/#hire">
                         Link
-                </Link>
+                </Link> */}
                 </Menu>
             </MediaQuery>
         )
