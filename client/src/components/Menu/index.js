@@ -34,6 +34,54 @@ export default class TheMenu extends React.Component {
                     <Link onClick={() => this.closeMenu()} to="/">
                         Home
                 </Link>
+
+                    <Link onClick={() => this.closeMenu()} to="/">
+                        News
+                </Link>
+
+                    <Link onClick={() => this.closeMenu()} to="/">
+                        Schedule
+                </Link>
+
+                    <Link onClick={() => this.closeMenu()} to="/">
+                        Coaching Staff
+                </Link>
+
+                    <Link onClick={() => this.closeMenu()} to="/">
+                        Teams
+                </Link>
+
+                    <Link onClick={() => this.closeMenu()} to="/">
+                        Photos
+                </Link>
+
+                    <Link onClick={() => this.closeMenu()} to="/">
+                        Program History
+                </Link>
+
+                    <Link onClick={() => this.closeMenu()} to="/">
+                        Booster Club
+                </Link>
+
+                    <Link onClick={() => this.closeMenu()} to="/">
+                        Fundraising
+                </Link>
+
+                    <Link onClick={() => this.closeMenu()} to="/">
+                        Links
+                </Link>
+
+                    <Link onClick={() => this.closeMenu()} to="/">
+                        Sponsors
+                </Link>
+
+                    <Link onClick={() => this.closeMenu()} to="/">
+                        Notable Alumni
+                </Link>
+
+                    <Link onClick={() => this.closeMenu()} to="/">
+                        Contact Us
+                </Link>
                     {/* 
                     <Link onClick={() => this.closeMenu()} smooth to="/details/#portfolio">
                         Link
