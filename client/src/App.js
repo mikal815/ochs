@@ -3,26 +3,27 @@ import styled from 'styled-components'
 import Menu from './components/Menu'
 import './App.css'
 
-// const Layout = styled.div`
-//     display: grid;
-//     grid-auto-columns: 1fr;
-//     grid-template-rows: auto;
-//     height: 100%;
-//     background-color: #e9e39c;
-//     position: relative;
-//     padding-left: 5vw;
-//     padding-right: 5vw;
-// `
-
 const Layout = styled.div`
-   display: grid;
+    display: grid;
   grid-template-columns: 1fr 1fr;
   height: 100%;
   background-color: #e9e39c;
-  position: fixed;
+  position: relative;
   padding-left: 5vw;
   padding-right: 5vw;
 `
+
+// const Layout = styled.div`
+//    display: grid;
+//    grid-auto-columns: 1fr;
+//    grid-template-rows: auto;
+//   /* grid-template-columns: 1fr 1fr; */
+//   height: 100%;
+//   background-color: #e9e39c;
+//   position: fixed;
+//   padding-left: 5vw;
+//   padding-right: 5vw;
+// `
 
 function App() {
     return (
