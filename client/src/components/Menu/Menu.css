@@ -1,0 +1,15 @@
+.menu {
+    display: grid;
+    grid-column: span 3 / auto;
+    justify-self: center;
+    align-self: center;
+    justify-content: center;
+}
+
+.menu-top {
+justify-self: center;
+}
+
+.menu-bottom {
+justify-self: center;
+}

@@ -1,78 +1,19 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+.layout {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto; */
+  grid-auto-columns: 1fr 1fr 1fr;
+  /* grid-template-rows: auto; */
+  height: 100%;
+  background-color: #e9e39c;
+  position: relative;
+  padding-left: 15vw;
+  padding-right: 15vw;
 }
 
-.bm-item {
-    width: 14em;
-    text-decoration: none;
-    color: #ffffff;
-    font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
-    font-size: 0.8em;
-    height: 2.7em;
-    background-color: #696969;
-    margin-bottom: 1.2em;
-    padding-top: 11px;
-  }
-  
-  /* Change color on hover */
-  .bm-item:hover {
-    color: white;
-  }
-  
-  /* Position and sizing of burger button */
-  .bm-burger-button {
-    width: 30px;
-    height: 20px;
-    margin-top: -7px;
-    position: fixed;
-    right: 5vw;
-    top: 25px;
-  }
-  
-  /* Color/shape of burger icon bars */
-  .bm-burger-bars {
-    background: #696969;
-    /* background: #f30909; */
-  }
 
-  .bm-burger-bars-hover {
-    background: #ffffff;
-  }
-  
-  /* Position and sizing of clickable cross button */
-  .bm-cross-button {
-    height: 24px;
-    width: 24px;
-  }
-  
-  /* Color/shape of close button cross */
-  .bm-cross {
-    background: #696969;
-  }
-  
-  /* General sidebar styles */
-  .bm-menu {
-    background-image: linear-gradient(to right,rgba(41, 39, 43, 0.85), #29272b);
-    font-size: 1.15em;
-    text-align: center;
-    /* padding-top: 15%; */
-  }
-
-  
-    /* Wrapper for item list */
-  .bm-item-list {
-    padding-top: 2em;
-    padding-left: 2em;
-  }
-  
-  /* Morph shape necessary with bubble or elastic */
-  .bm-morph-shape {
-    fill: #373a47;
-  }
-  
-  /* Styling of overlay */
-  .bm-overlay {
-    display: none;
-  }
+.span-row-3 {
+    grid-column: span 3 / auto;
+    justify-self: center;
+    align-self: center;
+}
