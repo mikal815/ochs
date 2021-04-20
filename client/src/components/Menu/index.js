@@ -8,63 +8,63 @@ export default function Menu() {
     return (
         <div className="menu">
             <div className="menu-top">
-                <Link to="/">
+                <Link className="link" to="/">
                     Home
-        </Link>
+                </Link>
 
-                <Link smooth to="/#message">
+                <Link className="link" smooth to="/#message">
                     Coach's Message
-        </Link>
+                </Link>
 
-                <Link smooth to="/#news">
+                <Link className="link" smooth to="/#news">
                     News
-        </Link>
+                </Link>
 
-                <Link smooth to="/#schedule">
+                <Link className="link" smooth to="/#schedule">
                     Schedule
-        </Link>
+                </Link>
 
-                <Link smooth to="/#coaches">
+                <Link className="link" smooth to="/#coaches">
                     Coaching Staff
-        </Link>
+                </Link>
+
+                <Link className="link" smooth to="/#teams">
+                    Teams
+                </Link>
+
+                <Link className="link" smooth to="/#photos">
+                    Photos
+                </Link>
             </div>
 
             <div className="menu-bottom">
-                <Link smooth to="/#teams">
-                    Teams
-        </Link>
-
-                <Link smooth to="/#photos">
-                    Photos
-        </Link>
-
-                <Link smooth to="/#history">
+                <Link className="link" smooth to="/#history">
                     Program History
-        </Link>
+                </Link>
 
-                <Link smooth to="/#booster">
+                <Link className="link" smooth to="/#booster">
                     Booster Club
-        </Link>
+                </Link>
 
-                <Link smooth to="/#fundraising">
+                <Link className="link" smooth to="/#fundraising">
                     Fundraising
-        </Link>
+                </Link>
 
-                <Link smooth to="/#links">
+                <Link className="link" smooth to="/#links">
                     Links
-        </Link>
+                </Link>
 
-                <Link smooth to="/#sponsors">
+                <Link className="link" smooth to="/#sponsors">
                     Sponsors
-        </Link>
+                </Link>
 
-                <Link smooth to="/#alumni">
+                <Link className="link" smooth to="/#alumni">
                     Notable Alumni
-        </Link>
+                </Link>
 
-                <Link smooth to="/#contact">
+                <Link className="link" smooth to="/#contact">
                     Contact Us
-        </Link>
+                </Link>
             </div>
 
 

@@ -8,8 +8,25 @@
 
 .menu-top {
 justify-self: center;
+margin-bottom: 23px;
 }
 
 .menu-bottom {
 justify-self: center;
+margin-bottom: 23px;
+}
+
+.link {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    background-color: #696969;
+    border: none;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-right: 2.5px;
+    margin-left: 2.5px;
 }
