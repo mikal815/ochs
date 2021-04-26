@@ -6,8 +6,8 @@ import './Menu.css'
 export default function Menu() {
 
     return (
-        <div className="menu">
-            <div className="menu-top">
+        <div className="menu span-row-3">
+            <div className="span-row-3 menu-top">
                 <Link className="link" to="/">
                     Home
                 </Link>
@@ -23,7 +23,8 @@ export default function Menu() {
                 <Link className="link" smooth to="/#schedule">
                     Schedule
                 </Link>
-
+            </div>
+            <div className="span-row-3 menu-mid">
                 <Link className="link" smooth to="/#coaches">
                     Coaching Staff
                 </Link>
@@ -35,9 +36,6 @@ export default function Menu() {
                 <Link className="link" smooth to="/#photos">
                     Photos
                 </Link>
-            </div>
-
-            <div className="menu-bottom">
                 <Link className="link" smooth to="/#history">
                     Program History
                 </Link>
@@ -45,7 +43,8 @@ export default function Menu() {
                 <Link className="link" smooth to="/#booster">
                     Booster Club
                 </Link>
-
+            </div>
+            <div className="span-row-3 menu-bottom">
                 <Link className="link" smooth to="/#fundraising">
                     Fundraising
                 </Link>
@@ -66,10 +65,7 @@ export default function Menu() {
                     Contact Us
                 </Link>
             </div>
-
-
         </div>
-
     )
 }
 

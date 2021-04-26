@@ -1,11 +1,14 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .layout {
   display: grid;
-  /* grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto; */
   grid-auto-columns: 1fr 2fr 1fr;
   height: 100%;
-  background-color: #e9e39c;
-  position: relative;
+  background: #f8f5e6;
   padding-left: 15vw;
   padding-right: 15vw;
 }
@@ -15,4 +18,15 @@
     grid-column: span 3 / auto;
     justify-self: center;
     align-self: center;
+}
+
+.ochs-logo {
+  background: whitesmoke;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 25px;
+  padding-left: 25px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  filter: drop-shadow(0 0 30px rgba(178, 179, 159, 0.767));
 }

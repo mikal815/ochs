@@ -10,7 +10,7 @@ import Carousel from './components/Carousel'
 function App() {
     return (
         <div className="layout">
-            <img className="span-row-3" src={ochslogo} alt="ochs logo" height="125px" />
+            <img className="ochs-logo span-row-3" src={ochslogo} alt="ochs logo" height="115px" />
             <Menu className="span-row-3" />
             <News />
             <Logo />
