@@ -1,4 +1,7 @@
 .logo {
-    border: dotted;
-    height: 150px;
+    /* border: dotted;
+    height: 150px; */
+    display: grid;
+    justify-items: center;
+    height: 500px;
 }

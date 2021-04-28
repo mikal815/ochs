@@ -1,7 +1,8 @@
-import React from 'react';
+import React from 'react'
 // import { Link } from 'react-router-dom';
-import { HashLink as Link } from 'react-router-hash-link';
+import { HashLink as Link } from 'react-router-hash-link'
 import './Menu.css'
+import raider from '../../assets/images/raider.png'
 
 export default function Menu() {
 

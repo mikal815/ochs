@@ -8,7 +8,7 @@
     /* justify-content: center; */
     /* background: whitesmoke; */
     /* height: 250px; */
-    margin-bottom: 15px;
+    margin-bottom: 35px;
 }
 
 .span-row-3 {
@@ -21,14 +21,14 @@
     text-decoration: none;
     font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
     font-size: 14px;
-    font-weight: bold;
+    /* font-weight: bold; */
     background-color: whitesmoke;
     color: #696969;
-    border: solid #696969 2px;
+    border: solid #696969 1px;
     padding-right: 20px;
     padding-left: 20px;
-    padding-bottom: 5px;
-    padding-top: 5px;
+    padding-bottom: 6px;
+    padding-top: 6px;
     margin-right: 2.5px;
     margin-left: 2.5px;
 }

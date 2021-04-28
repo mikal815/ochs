@@ -7,6 +7,7 @@
 .layout {
   display: grid;
   grid-auto-columns: 1fr 2fr 1fr;
+  /* grid-template-columns: repeat(3, 1fr); */
   height: 100%;
   background: #f8f5e6;
   padding-left: 15vw;
@@ -21,12 +22,5 @@
 }
 
 .ochs-logo {
-  background: whitesmoke;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-right: 25px;
-  padding-left: 25px;
   margin-top: 10px;
-  margin-bottom: 35px;
-  filter: drop-shadow(0 0 20px rgba(127, 197, 230, 0.603));
 }

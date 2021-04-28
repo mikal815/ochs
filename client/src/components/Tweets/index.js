@@ -4,7 +4,7 @@ import { TwitterTimelineEmbed } from 'react-twitter-embed';
 
 function Tweets() {
     return (
-        <div>
+        <div className="tweets">
             <TwitterTimelineEmbed
                 sourceType="profile"
                 screenName="oceanraiders"
