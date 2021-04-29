@@ -5,7 +5,7 @@ import Menu from './components/Menu'
 import News from './components/News'
 import Logo from './components/Logo'
 import Tweets from './components/Tweets'
-import Carousel from './components/Carousel'
+import SimpleSlider from './components/Carousel'
 
 function App() {
     return (
@@ -13,9 +13,9 @@ function App() {
             <img className="ochs-logo span-row-3" src={ochslogo} alt="ochs logo" height="290px" />
             <Menu />
             <News />
-            <Logo />
+            <SimpleSlider />
             <Tweets />
-            <Carousel />
+            <Logo />
         </div>
     );
 }
