@@ -9,7 +9,8 @@
   grid-auto-columns: 1fr 2fr 1fr;
   column-gap: 6px;
   height: 100%;
-  background: #f8f5e6;
+  /* background: #f8f5e6; */
+  background-image: url(../src/assets/images/baseballsedit.jpg);
   padding-left: 15vw;
   padding-right: 15vw;
 }

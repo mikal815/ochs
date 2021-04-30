@@ -4,13 +4,14 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import littleleauge from '../../assets/images/little-league.jpg'
+import field from '../../assets/images/field.jpg'
 
 export default function SimpleSlider() {
     var settings = {
         dots: true,
         infinite: true,
         autoplay: true,
-        speed: 500,
+        speed: 2000,
         slidesToShow: 1,
         slidesToScroll: 1,
     };
@@ -18,10 +19,11 @@ export default function SimpleSlider() {
         <div className="carousel">
             <Slider {...settings}>
                 <div>
-                    <img className="" src={littleleauge} alt="little league" height="320px" />
+                    <img className="" src={littleleauge} alt="little league" height="300px" />
                 </div>
                 <div>
-                    <h3>2</h3>
+                    <img className="" src={field} alt="field" height="300px" />
+
                 </div>
                 <div>
                     <h3>3</h3>
