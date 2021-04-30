@@ -5,10 +5,16 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import littleleauge from '../../assets/images/little-league.jpg'
 import field from '../../assets/images/field.jpg'
+import pitcher from '../../assets/images/pitcher.PNG'
+import batter from '../../assets/images/batter.PNG'
+import pitch from '../../assets/images/pitch.PNG'
+import tag from '../../assets/images/tag.PNG'
+import pitch2 from '../../assets/images/pitch2.PNG'
 
 export default function SimpleSlider() {
     var settings = {
         dots: true,
+        arrows: true,
         infinite: true,
         autoplay: true,
         speed: 2000,
@@ -22,20 +28,19 @@ export default function SimpleSlider() {
                     <img className="" src={littleleauge} alt="little league" height="300px" />
                 </div>
                 <div>
-                    <img className="" src={field} alt="field" height="300px" />
-
+                    <img className="" src={pitch} alt="pitch" height="300px" />
                 </div>
                 <div>
-                    <h3>3</h3>
+                    <img className="" src={pitcher} alt="pitcher" height="300px" />
                 </div>
                 <div>
-                    <h3>4</h3>
+                    <img className="" src={batter} alt="batter" height="300px" />
                 </div>
                 <div>
-                    <h3>5</h3>
+                    <img className="" src={tag} alt="tag" height="300px" />
                 </div>
                 <div>
-                    <h3>6</h3>
+                    <img className="" src={pitch2} alt="pitch2" height="300px" />
                 </div>
             </Slider>
         </div>
