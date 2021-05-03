@@ -1,13 +1,19 @@
 .carousel {
     overflow: hidden;
+    border: solid #696969 1px;
+    height: 300px;
 }
 
 .slick-prev {
     left: 5px !important;
-    background: transparent !important; /*to notice it, is white*/
+    background: transparent !important;
     z-index: 1;
 }
 .slick-next {
     right: 5px !important;
-    background: transparent !important; /*to notice it, is white*/
+    background: transparent !important;
+}
+
+.slick-dots {
+bottom: 5px !important;
 }

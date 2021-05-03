@@ -3,8 +3,7 @@ import './Carousel.css'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import littleleauge from '../../assets/images/little-league.jpg'
-import field from '../../assets/images/field.jpg'
+import group from '../../assets/images/group.jpg'
 import pitcher from '../../assets/images/pitcher.PNG'
 import batter from '../../assets/images/batter.PNG'
 import pitch from '../../assets/images/pitch.PNG'
@@ -25,7 +24,7 @@ export default function SimpleSlider() {
         <div className="carousel">
             <Slider {...settings}>
                 <div>
-                    <img className="" src={littleleauge} alt="little league" height="300px" />
+                    <img className="" src={group} alt="group" height="300px" />
                 </div>
                 <div>
                     <img className="" src={pitch} alt="pitch" height="300px" />
