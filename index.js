@@ -20,10 +20,14 @@ async function scrapeIt(url) {
     const rawTxt = await txt.jsonValue();
 
     console.log({ rawTxt });
+
+    app.get('/api', function (req, res) {
+        var date = rawTxt
+        res.send(rawTxt)
+    })
 }
 
 scrapeIt('https://www.capeatlanticleague.org/g5-bin/client.cgi?cwellOnly=1&G5statusflag=view&schoolname=&school_id=15&G5button=13&G5genie=344&vw_schoolyear=1&vw_agl=15-1-17,&manual_access=1');
-
 
 
 // if (apps.env.NODE_ENV === "production") {
