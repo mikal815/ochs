@@ -9,6 +9,9 @@ import batter from '../../assets/images/batter.PNG'
 import pitch from '../../assets/images/pitch.PNG'
 import tag from '../../assets/images/tag.PNG'
 import pitch2 from '../../assets/images/pitch2.PNG'
+import team from '../../assets/images/team.jpg'
+import team2 from '../../assets/images/team2.jpg'
+import legends from '../../assets/images/legends.jpg'
 
 export default function SimpleSlider() {
     var settings = {
@@ -23,6 +26,12 @@ export default function SimpleSlider() {
     return (
         <div className="carousel">
             <Slider {...settings}>
+                <div>
+                    <img className="" src={team} alt="team" height="300px" />
+                </div>
+                <div>
+                    <img className="" src={team2} alt="team2" height="300px" />
+                </div>
                 <div>
                     <img className="" src={group} alt="group" height="300px" />
                 </div>
@@ -40,6 +49,9 @@ export default function SimpleSlider() {
                 </div>
                 <div>
                     <img className="" src={pitch2} alt="pitch2" height="300px" />
+                </div>
+                <div>
+                    <img className="" src={legends} alt="legends" height="300px" />
                 </div>
             </Slider>
         </div>
