@@ -5,6 +5,7 @@ import Menu from './components/Menu'
 import News from './components/News'
 import Logo from './components/Logo'
 import Tweets from './components/Tweets'
+import LeftTweets from './components/LeftTweets'
 import SimpleSlider from './components/Carousel'
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
         <div className="layout">
             <img className="ochs-logo span-row-3" src={ochslogo} alt="ochs logo" height="290px" />
             <Menu />
-            <News />
+            <LeftTweets />
             <SimpleSlider />
             <Tweets />
             <Logo />

@@ -9,31 +9,23 @@ export default function Menu() {
     return (
         <div className="menu span-row-3">
             <div className="span-row-3 menu-top">
-                <Link className="link" to="/">
-                    Home
-                </Link>
-
-                <Link className="link" smooth to="/#message">
-                    Coach's Message
-                </Link>
-
-                <Link className="link" smooth to="/#news">
-                    News
-                </Link>
-
-                <Link className="link" smooth to="/#schedule">
-                    Schedule
-                </Link>
+                <a className="link" target="_blank" rel="noreferrer" href="https://www.capeatlanticleague.org/g5-bin/client.cgi?cwellOnly=1&G5statusflag=view&schoolname=&school_id=15&G5button=13&G5genie=344&vw_schoolyear=1&vw_agl=15-1-17,&manual_access=1">
+                    Varsity Schedule
+                </a>
+                <a className="link" target="_blank" rel="noreferrer" href="https://www.capeatlanticleague.org/g5-bin/client.cgi?cwellOnly=1&G5statusflag=view&schoolname=&school_id=15&G5button=13&G5genie=344&vw_schoolyear=1&vw_agl=15-1-16,&manual_access=1">
+                    JV Schedule
+                </a>
+                <a className="link" target="_blank" rel="noreferrer" href="https://www.capeatlanticleague.org/g5-bin/client.cgi?cwellOnly=1&G5statusflag=view&schoolname=&school_id=15&G5button=13&G5genie=344&vw_schoolyear=1&vw_agl=15-1-87,&manual_access=1">
+                    Freshman Schedule
+                </a>
             </div>
             <div className="span-row-3 menu-mid">
                 <Link className="link" smooth to="/#coaches">
                     Coaching Staff
                 </Link>
-
-                <Link className="link" smooth to="/#teams">
-                    Teams
-                </Link>
-
+                <a className="link" target="_blank" rel="noreferrer" href="https://www.capeatlanticleague.org/g5-bin/client.cgi?G5genie=344">
+                    Cape Atlantic League
+                </a>
                 <Link className="link" smooth to="/#photos">
                     Photos
                 </Link>
